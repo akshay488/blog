@@ -1,0 +1,95 @@
+:root{
+  --lightRed: hsl(356, 100%, 66%); /* Text */
+   --veryLightRed: hsl(355, 100%, 74%);/*hover-bg */
+  --veryDarkBlue-headings: hsl(208, 49%, 24%);/*headings*/
+}
+/* neautral */
+:root{
+  --White : hsl(0, 0%, 100%);/*(text)*/
+  --Grayish_blue : hsl(240, 2%, 79%);/*(footer text)*/
+  --Very_darkGrayish_blue : hsl(207, 13%, 34%);/*(body copy)*/
+  --Very_darkBlack_blue : hsl(240, 10%, 16%);/*(footer background)*/
+}
+
+
+/* Intro/CTA mobile nav: */
+:root{
+--veryLightRed_bgg: hsl(13, 100%, 72%);
+--lightRed_bgg: hsl(353, 100%, 62%);
+/* Background gradient - body: */
+--grayBlue: hsl(237, 17%, 21%);
+--desaturatedBlue: hsl(237, 23%, 32%);
+}
+
+html{
+font-size: 10px;
+
+font-family: 'Overpass', 'Ubuntu',sans-serif;
+
+}
+body{
+  box-sizing: border-box;
+}
+*,*::before,*::after{
+box-sizing: inherit;
+padding: 0;
+margin: 0;
+line-height: 1.6;
+}
+h1{
+    font-size: 6rem;
+    font-family:  'Overpass',sans-serif;
+    margin-bottom: 1rem;
+}
+h2{
+  font-size: 4rem;
+  font-family:  'Overpass',sans-serif;
+}
+h3{
+  font-size: 3rem;
+  font-family:  'Overpass',sans-serif;
+  margin-bottom: 2rem;
+}
+p{
+  font-size:2rem;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+a {
+  text-decoration: none;
+  font-family: 'Overpass',sans-serif;
+}
+
+ul{list-style: none}
+ul li{
+  display: block;
+  padding:1rem;
+
+}
+
+  .button{
+    text-decoration: none;
+    border:none;
+    border-radius: 4rem;
+    padding:1.5rem 4rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--lightRed_bgg);
+    cursor: pointer;
+  }
+
+  .red_button{
+    text-decoration: none;
+    border:2px solid #fff;
+    border-radius: 4rem;
+    padding:1.5rem 4rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  .flex{
+    display:flex;
+    flex-wrap:wrap;
+  }

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Blogr]</title>
+<link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="commonstyle.css">
+<link rel="stylesheet" href="jsStyle.css">
+  <link rel="stylesheet" href="mediaQueries.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header  class="header">
+<div id="menu" class="menu-bar ">
+  <!-- logo -->
+  <div class="logo">
+    <img src="images/logo.svg" alt="logo" width="150px" >
+  </div>
+  <!-- navbar -->
+  <div class="signUp_card flex" id="sign_up">
+    <div  class="navbar" id="nav_bar">
+
+
+        <div class="drp-container" >
+          <a href="#" onclick="myFunction(1)">Product</a>
+          <div class="drp-card close" id="product">
+
+          <p >Overview</p>
+          <p >Pricing</p>
+          <p > Marketplace</p>
+          <p >Features</p>
+          <p >Integrations</p>
+
+        </div>
+      </div>
+
+      <div class="drp-container" >
+        <a href="#" onclick="myFunction(2)">Company</a>
+        <div class="drp-card close" id="company">
+
+          <p>About</p>
+          <p>Team</p>
+          <p>Blog</p>
+          <p>Careers</p>
+
+        </div>
+      </div>
+
+      <div class="drp-container" >
+        <a href="#" onclick="myFunction(3)">Connect</a>
+        <div class="drp-card close" id="connect">
+          <p>Contact</p>
+          <p>Newsletter</p>
+          <p>LinkedIn</p>
+
+        </div>
+      </div>
+  </div>
+
+    <!-- login -->
+    <div class="login">
+      <p>Login</p>
+      <button type="button" class="button signup">Sign Up</button>
+    </div>
+  </div>
+
+
+  <div  id="hamburger_menu" class="hamburger_menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</div>
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="3175" height="3174"><defs><linearGradient x1="0.6" x2="99.4" y2="100"><stop offset="0%" stop-color="#FF8F71"/><stop offset="100%" stop-color="#FF3E55"/></linearGradient></defs><path d="M1973.2 1193.2v788.4h-786.8v-688.4c0-55.2 44.8-100 100-100h686.8zm-1310.4-1.2c217.3 0 393.4 176.1 393.4 393.4v1.6c0 217.3-176.1 393.4-393.4 393.4S269.3 1804.3 269.3 1587v-1.6c0-217.3 176.1-393.4 393.4-393.4zm392.2-926.4v688.4c0 55.2-44.8 100-100 100H268.2v-788.4h786.8zm918.2 0v788.4h-686.8c-55.2 0-100-44.8-100-100v-688.4h786.8z" fill="url(#a)"/></svg> -->
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="3175" height="3174"><defs><linearGradient id="a" x1=".639%" x2="99.361%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF8F71"/><stop offset="100%" stop-color="#FF3E55"/></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M1973.15 1193.185v788.41h-786.766v-688.41c0-55.228 44.772-100 100-100h686.767zm-1310.445-1.171c217.26 0 393.383 176.124 393.383 393.383v1.645c0 217.26-176.123 393.383-393.383 393.383S269.322 1804.3 269.322 1587.042v-1.645c0-217.26 176.124-393.383 393.383-393.383zm392.212-926.418v688.41c0 55.23-44.771 100-100 100H268.151v-788.41h786.766zm918.234 0v788.41h-686.767c-55.228 0-100-44.771-100-100v-688.41h786.767z" transform="rotate(22 162.072 2556.164)"/></svg> -->
+  <div class="heading">
+    <h1>A modern publishing platform</h1>
+    <p>Grow your audience and build your online brand</p>
+    <button type="button" class="button">Start for Free</button>
+    <button type="button" class="red_button">  Learn More</button>
+  </div>
+
+  </header>
+  <main class="main">
+    <div class="content_header">
+      <h2>Designed for the future</h2>
+    </div>
+    <div class="main_content">
+
+      <div class="pic-1">
+
+
+      </div>
+
+      <div class="content-1" >
+        <div class="ctnt-1">
+          <h3>Introducing an extensible editor</h3>
+          <p>
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or
+          change the looks of a blog.</p>
+        </div>
+        <div class="ctnt-1">
+          <h3>Robust content management</h3>
+          <p>
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="content-blue">
+      <div class="pic-2">
+        <img src="images/illustration-phones.svg" alt="mobile-img" width="100%" height="auto">
+      </div>
+      <div class="blue-ctnt">
+        <h2>  State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>
+    <div class="sub-content">
+      <div class="pic-3">
+
+
+      </div>
+      <div class="content-2">
+        <div class="ctnt_2">
+          <h3>  Free, open, simple</h3>
+            <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports
+            features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools,
+            and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+          </p>
+        </div>
+        <div class="ctnt_2">
+          <h3>Powerful tooling</h3>
+          <p>
+          Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="logo_ftr">
+      <img src="images/logo.svg" alt="logo" width="150px">
+    </div>
+    <div class="">
+      <p>product</p>
+      <ul>
+        <li><a href="#">Overview</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li> <a href="#">Features</a> </li>
+        <li><a href="#">Integrations</a></li>
+
+      </ul>
+
+    </div>
+    <div class="">
+      <p>company</p>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
+
+      </ul>
+
+
+    </div>
+    <div class="">
+      <p>Connect</p>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+
+
+    </div>
+  </footer>
+
+
+  <script src="index.js">
+
+  </script>
+
+
+</body>
+</html>

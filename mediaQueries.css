@@ -1,0 +1,235 @@
+
+
+  @media all and (max-width:898px){
+
+    h1{
+        font-size: 5rem;
+        font-family:  'Overpass',sans-serif;
+        margin-bottom: 1rem;
+    }
+    p{
+      font-size: 2rem;
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+
+    .header{
+      gap: 4rem;
+    }
+      .flex{
+        display:none;
+      }
+
+.menu-bar .signUp_card{
+
+    text-align: center;
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    padding: 3.5rem;
+    position: fixed;
+    border-radius: 10px;
+    top: 10%;
+    left: 50%;
+    transform:translateX(-50%);
+    overflow-y: hidden;
+    z-index:2;
+  }
+  .signUp_card-close{
+    display: none;
+  }
+  .signUp_card-open{
+    display: block;
+  }
+  .drp-container {
+    display:block;
+    margin-right:0;
+    padding-bottom: 1rem;
+  }
+  .drp-container::after{
+    position:absolute;
+    top: 12px;
+   left: 75%;
+display: inline-block;
+content: ' ';
+background-image: url('images/icon-arrow-dark.svg');
+background-size: 15px 15px;
+height: 15px;
+width: 15px;
+
+  }
+  .drp-card{
+    position: static;
+    padding: 2.5rem;
+    background-color: #ddd;
+    border-radius:0;
+  }
+  .drp-card p{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .drp-card p:last-child{
+    padding-bottom: 1rem;
+  }
+  .drp-container a{
+    color:var(--desaturatedBlue);
+    font-size: 3rem;
+  }
+
+  .drp-container:hover a{
+    text-decoration: none;
+
+  }
+  .login{
+    border-top: 1px solid #ddd;
+    padding: 3.5rem;
+  }
+  .login p{
+    display:block;
+    color:var(--desaturatedBlue);
+    font-size: 3rem;
+    margin-right:0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .login button {
+    display: block;
+    background: linear-gradient(to right, hsl(13, 100%, 72%) 20%,hsl(353, 100%, 62%)80%);
+    color: #fff;
+    margin: 0 auto;
+  }
+  .login button:hover{
+    opacity: 0.5;
+  }
+    .button{
+      border-radius: 4rem;
+      padding:1.5rem 4rem;
+      font-size: 1.7rem;
+
+    }
+
+    .red_button{
+      border-radius: 4rem;
+      padding:1.5rem 4rem;
+      font-size: 1.7rem;
+    }
+    .menu-bar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 ;
+      width:100%;
+      margin-bottom: 2rem;
+
+    }
+    .menu-bar .logo{
+      flex:none;
+    }
+    .hamburger_menu{
+      display: block;
+
+    }
+    /* content */
+    .main_content{
+
+      margin-bottom: 26rem;
+
+    }
+
+    .content-1{
+      grid-column: 1/span 4;
+    grid-row:3/span 2;
+    }
+    .pic-1{
+      background: url('images/illustration-editor-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: 700px ;
+      background-position: 0% ;
+        grid-column: 1/span 4;
+      grid-row:1/span 2;
+    }
+
+    .content-1 div{
+      margin-left: 2rem;
+      text-align: center;
+    }
+
+    .content_header{
+    position: static;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    }
+
+    .pic-1 img{
+      max-width:740px;
+      margin-right: 0;
+      margin: 0 auto;
+    }
+
+    .content-blue{
+     flex-direction: column;
+
+    }
+
+      .pic-2 img{
+      margin-bottom: 0;
+     margin-top:-270px;
+
+    }
+    .blue-ctnt{
+      margin: 0 auto;
+    }
+    /* subcontent */
+
+    .pic-3 {
+      background: url('images/illustration-laptop-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: 750px ;
+      background-position: 0% 50% ;
+        grid-column: 1/span 4;
+      grid-row:1/span 2;
+    }
+    .content-2{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid-column: 1/span 4;
+      grid-row:3/span 2;
+    }
+    .content-2{
+      margin-bottom: 4rem;
+        text-align: center;
+
+
+    }
+    /* footer */
+    .footer{
+      flex-direction: column;
+
+    }
+    .footer div{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .pic-4{
+      background: url('images/illustration-editor-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: 740px ;
+      background-position:  0% 0%;
+      grid-column: 1/span 4;
+      grid-row:1/span 2;
+    }
+    .content-3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      grid-column: 1/span 4;
+      grid-row:3/span 2;
+    }
+  }
