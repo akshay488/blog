@@ -136,7 +136,10 @@ transform-origin: 9px 4px;
      justify-content: space-between;
      align-items: center;
    }
-
+   
+  .close{
+    display: none;
+  }
 
 /* heading */
     .heading{
