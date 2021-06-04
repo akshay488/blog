@@ -25,46 +25,72 @@
   <div class="logo">
     <img src="images/logo.svg" alt="logo" width="150px" >
   </div>
-  <!-- navbar -->
-  <div class="signUp_card flex" id="sign_up">
-    <div  class="navbar" id="nav_bar">
-
-
-        <div class="drp-container" >
-          <a href="#" onclick="myFunction(1)">Product</a>
-          <div class="drp-card close" id="product">
-
-          <p >Overview</p>
-          <p >Pricing</p>
-          <p > Marketplace</p>
-          <p >Features</p>
-          <p >Integrations</p>
-
-        </div>
-      </div>
-
-      <div class="drp-container" >
-        <a href="#" onclick="myFunction(2)">Company</a>
-        <div class="drp-card close" id="company">
-
-          <p>About</p>
-          <p>Team</p>
-          <p>Blog</p>
-          <p>Careers</p>
-
-        </div>
-      </div>
-
-      <div class="drp-container" >
-        <a href="#" onclick="myFunction(3)">Connect</a>
-        <div class="drp-card close" id="connect">
-          <p>Contact</p>
-          <p>Newsletter</p>
-          <p>LinkedIn</p>
-
-        </div>
-      </div>
+  
+  <div  id="hamburger_menu" class="hamburger_menu">
+    <span class="menu_span"></span>
+    <span class="menu_span"></span>
+    <span class="menu_span"></span>
+    
   </div>
+
+  <!-- navbar -->
+
+  <div class="signUp_card flex" id="sign_up">
+    <ul  class="navbar" id="nav_bar">
+
+
+        <li class="drp-container"  >
+          <div class="links" >
+            <a href="#" id="product">Product</a>
+          <span class="arrow arrow_normal"></span>
+          </div>
+          
+            <ul class="drp-card close" id="a" >
+              <li> <a href="#">Overview</a></li>
+              <li><a href="#">pricing</a></li>
+              <li><a href="#"> Marketalace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+         
+
+        
+          </li>
+
+        <li class="drp-container">
+        
+        <div class="links">
+          <a href="#" id="company">Company</a>
+          <span class="arrow arrow_normal"></span>
+        </div>
+        
+          <ul class="drp-card close" id="b" >
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="#">Careers</a></li>
+          </ul>
+
+        
+      </li>
+
+      <li class="drp-container"  >
+        <div class="links" >
+          <a href="#" id="connect" >Connect</a>
+        
+        <span class="arrow arrow_normal"></span>
+        </div>
+        
+        
+          <ul class="drp-card close" id="c" >
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+
+        
+        </li>
+  </ul>
 
     <!-- login -->
     <div class="login">
@@ -73,16 +99,10 @@
     </div>
   </div>
 
-
-  <div  id="hamburger_menu" class="hamburger_menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-
 </div>
-<!-- <svg xmlns="http://www.w3.org/2000/svg" width="3175" height="3174"><defs><linearGradient x1="0.6" x2="99.4" y2="100"><stop offset="0%" stop-color="#FF8F71"/><stop offset="100%" stop-color="#FF3E55"/></linearGradient></defs><path d="M1973.2 1193.2v788.4h-786.8v-688.4c0-55.2 44.8-100 100-100h686.8zm-1310.4-1.2c217.3 0 393.4 176.1 393.4 393.4v1.6c0 217.3-176.1 393.4-393.4 393.4S269.3 1804.3 269.3 1587v-1.6c0-217.3 176.1-393.4 393.4-393.4zm392.2-926.4v688.4c0 55.2-44.8 100-100 100H268.2v-788.4h786.8zm918.2 0v788.4h-686.8c-55.2 0-100-44.8-100-100v-688.4h786.8z" fill="url(#a)"/></svg> -->
-<!-- <svg xmlns="http://www.w3.org/2000/svg" width="3175" height="3174"><defs><linearGradient id="a" x1=".639%" x2="99.361%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF8F71"/><stop offset="100%" stop-color="#FF3E55"/></linearGradient></defs><path fill="url(#a)" fill-rule="evenodd" d="M1973.15 1193.185v788.41h-786.766v-688.41c0-55.228 44.772-100 100-100h686.767zm-1310.445-1.171c217.26 0 393.383 176.124 393.383 393.383v1.645c0 217.26-176.123 393.383-393.383 393.383S269.322 1804.3 269.322 1587.042v-1.645c0-217.26 176.124-393.383 393.383-393.383zm392.212-926.418v688.41c0 55.23-44.771 100-100 100H268.151v-788.41h786.766zm918.234 0v788.41h-686.767c-55.228 0-100-44.771-100-100v-688.41h786.767z" transform="rotate(22 162.072 2556.164)"/></svg> -->
+  
+
+
   <div class="heading">
     <h1>A modern publishing platform</h1>
     <p>Grow your audience and build your online brand</p>

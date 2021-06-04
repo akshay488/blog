@@ -16,9 +16,12 @@
     .header{
       gap: 4rem;
     }
+
+    
       .flex{
         display:none;
       }
+
 
 .menu-bar .signUp_card{
 
@@ -27,8 +30,8 @@
     height: auto;
     background-color: #fff;
     padding: 3.5rem;
-    position: fixed;
     border-radius: 10px;
+    position: fixed;
     top: 10%;
     left: 50%;
     transform:translateX(-50%);
@@ -41,37 +44,35 @@
   .signUp_card-open{
     display: block;
   }
-  .drp-container {
+  .navbar .drp-container {
     display:block;
     margin-right:0;
     padding-bottom: 1rem;
   }
-  .drp-container::after{
-    position:absolute;
-    top: 12px;
-   left: 75%;
-display: inline-block;
-content: ' ';
-background-image: url('images/icon-arrow-dark.svg');
-background-size: 15px 15px;
-height: 15px;
-width: 15px;
 
+  .links .arrow{
+     background-image: url('images/icon-arrow-dark.svg');
+    background-size: 15px 15px;
+    height: 15px;
+    width: 15px;
+    margin-left: 1rem;
   }
+  
   .drp-card{
     position: static;
-    padding: 2.5rem;
+    padding : 2.5rem;
     background-color: #ddd;
     border-radius:0;
+    
   }
-  .drp-card p{
-    font-size: 2rem;
+  .drp-card li {
+    font-size: 1.6rem;
     padding-bottom: 1rem;
   }
-  .drp-card p:last-child{
+  .drp-card li:last-child{
     padding-bottom: 1rem;
   }
-  .drp-container a{
+  .links a{
     color:var(--desaturatedBlue);
     font-size: 3rem;
   }
@@ -118,7 +119,6 @@ width: 15px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin: 0 ;
       width:100%;
       margin-bottom: 2rem;
 
