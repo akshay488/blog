@@ -35,6 +35,9 @@
     top: 10%;
     left: 50%;
     transform:translateX(-50%);
+    -webkit-box-shadow: 11px 16px 31px -20px rgba(32,32,33,1);
+    -moz-box-shadow: 11px 16px 31px -20px rgba(32,32,33,1);
+    box-shadow: 11px 16px 31px -20px rgba(32,32,33,1);
     overflow-y: hidden;
     z-index:2;
   }
