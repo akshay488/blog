@@ -26,13 +26,13 @@
 .menu-bar .signUp_card{
 
     text-align: center;
-    width: 50%;
+    width: 90%;
     height: auto;
     background-color: #fff;
     padding: 3.5rem;
     border-radius: 10px;
     position: fixed;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform:translateX(-50%);
     -webkit-box-shadow: 11px 16px 31px -20px rgba(32,32,33,1);
@@ -64,7 +64,7 @@
   .drp-card{
     position: static;
     padding : 2.5rem;
-    background-color: #ddd;
+    background-color: rgb(217, 233, 247);
     border-radius:0;
     
   }
@@ -147,7 +147,7 @@
     .pic-1{
       background: url('images/illustration-editor-mobile.svg');
       background-repeat: no-repeat;
-      background-size: 700px ;
+      background-size: 600px ;
       background-position: center ;
         grid-column: 1/span 4;
       grid-row:1/span 2;
@@ -170,19 +170,35 @@
       margin-right: 0;
       margin: 0 auto;
     }
+     /* conternt blue */
 
-    .content-blue{
-     flex-direction: column;
+     .content-blue {
+       text-align: center;
+       
+     }
 
+     .wrapper-1{
+      margin-bottom: 4rem;
+      
     }
 
+    .pic-2{
+      grid-column: 1/span 4;
+      grid-row: 1/span 2;
+    
+   }
+
       .pic-2 img{
+       
       margin-bottom: 0;
-     margin-top:-270px;
+      margin-top:-270px;
 
     }
     .blue-ctnt{
+      grid-column: 1/span 4;
+      grid-row: 3/span 2;
       margin: 0 auto;
+      margin-bottom: 10rem;
     }
     /* subcontent */
 
